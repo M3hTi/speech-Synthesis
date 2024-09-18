@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Speech Synthesis</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Please Enter Your Text</h2>
+        <div class="input-container">
+            <textarea id="textInput" class="text-input" placeholder="Enter your text here..."></textarea>
+        </div>
+        <div class="voice-selection">
+            <label for="voiceSelect">Select Voice:</label>
+            <select id="voiceSelect" class="voice-select">
+                <option value="0">English Voice 1</option>
+                <option value="1">English Voice 2</option>
+                <option value="2">English Voice 3</option>
+                <option value="3">English Voice 4</option>
+                <option value="4">English Voice 5</option>
+                <option value="5">English Voice 6</option>
+            </select>
+        </div>
+        <div class="controls">
+            <button id="toggleButton" class="toggle-button">
+                <img src="image/volume.png" alt="Toggle Speech" id="toggleIcon" class="toggle-icon">
+            </button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
